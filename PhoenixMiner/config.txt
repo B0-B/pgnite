@@ -1,0 +1,3 @@
+-pool eu1.ethermine.org:5555 -pool2 us1.ethermine.org:5555
+-wal 0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.DAN_donating_to_Pgnite
+-gpow 10

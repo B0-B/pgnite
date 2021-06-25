@@ -1,0 +1,89 @@
+2021.06.03:04:01:18.983: main Phoenix Miner 5.6d Windows/msvc - Release build
+2021.06.03:04:01:18.983: main Cmd line: -pool ssl://eu1.ethermine.org:4444 -pool2 ssl://us1.ethermine.org:4444 -wal 0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_main 
+2021.06.03:04:01:19.081: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.06.03:04:01:19.138: main No OpenCL platforms found
+2021.06.03:04:01:19.138: main Available GPUs for mining:
+2021.06.03:04:01:19.138: main GPU1: GeForce GTX 1080 (pcie 6), CUDA cap. 6.1, 8 GB VRAM, 20 CUs
+2021.06.03:04:01:19.157: main NVML library initialized
+2021.06.03:04:01:19.164: main Nvidia driver version: 457.85
+2021.06.03:04:01:19.518: main Eth: the pool list contains 2 pools (2 from command-line)
+2021.06.03:04:01:19.518: main Eth: primary pool: ssl://eu1.ethermine.org:4444
+2021.06.03:04:01:19.518: main Starting GPU mining
+2021.06.03:04:01:19.628: wdog Starting watchdog thread
+2021.06.03:04:01:19.882: main Eth: Connecting to ethash pool ssl://eu1.ethermine.org:4444 (proto: EthProxy)
+2021.06.03:04:01:19.883: main GPU1: 38C 23% 8W
+GPUs power: 8.5 W
+2021.06.03:04:01:19.909: eths Eth: Connected to SSL ethash pool eu1.ethermine.org:4444 (172.65.207.106)
+2021.06.03:04:01:19.934: eths Eth: Unable to establish secure connection to ssl://eu1.ethermine.org:4444: wrong version number
+2021.06.03:04:01:19.935: eths Eth: Reconnecting in 5 seconds...
+2021.06.03:04:01:20.085: main Listening for CDM remote manager at port 3333 in read-only mode
+2021.06.03:04:01:24.943: unkn Eth: Connecting to ethash pool ssl://eu1.ethermine.org:4444 (proto: EthProxy)
+2021.06.03:04:01:24.954: eths Eth: Connected to SSL ethash pool eu1.ethermine.org:4444 (172.65.207.106)
+2021.06.03:04:01:24.990: eths Eth: Unable to establish secure connection to ssl://eu1.ethermine.org:4444: wrong version number
+2021.06.03:04:01:24.991: eths Eth: Reconnecting in 5 seconds...
+2021.06.03:04:01:30.001: unkn Eth: Connecting to ethash pool ssl://eu1.ethermine.org:4444 (proto: EthProxy)
+2021.06.03:04:01:30.014: eths Eth: Connected to SSL ethash pool eu1.ethermine.org:4444 (172.65.207.106)
+2021.06.03:04:01:30.039: eths Eth: Unable to establish secure connection to ssl://eu1.ethermine.org:4444: wrong version number
+2021.06.03:04:01:30.041: eths Eth: Giving up after 3 retries, switching to next pool
+2021.06.03:04:01:30.041: eths Eth: Reconnecting in 5 seconds...
+2021.06.03:04:01:35.048: unkn Eth: Connecting to ethash pool ssl://us1.ethermine.org:4444 (proto: EthProxy)
+2021.06.03:04:01:35.075: eths Eth: Connected to SSL ethash pool us1.ethermine.org:4444 (172.65.218.238)
+2021.06.03:04:01:35.105: eths Eth: Unable to establish secure connection to ssl://us1.ethermine.org:4444: wrong version number
+2021.06.03:04:01:35.106: eths Eth: Reconnecting in 5 seconds...
+2021.06.03:04:01:40.114: unkn Eth: Connecting to ethash pool ssl://us1.ethermine.org:4444 (proto: EthProxy)
+2021.06.03:04:01:40.126: eths Eth: Connected to SSL ethash pool us1.ethermine.org:4444 (172.65.218.238)
+2021.06.03:04:01:40.156: eths Eth: Unable to establish secure connection to ssl://us1.ethermine.org:4444: wrong version number
+2021.06.03:04:01:40.158: eths Eth: Reconnecting in 5 seconds...
+2021.06.03:04:01:45.166: unkn Eth: Connecting to ethash pool ssl://us1.ethermine.org:4444 (proto: EthProxy)
+2021.06.03:04:01:45.177: eths Eth: Connected to SSL ethash pool us1.ethermine.org:4444 (172.65.218.238)
+2021.06.03:04:01:45.212: eths Eth: Unable to establish secure connection to ssl://us1.ethermine.org:4444: wrong version number
+2021.06.03:04:01:45.214: eths Eth: Giving up after 3 retries, switching to next pool
+2021.06.03:04:01:45.214: eths Eth: Reconnecting in 5 seconds...
+2021.06.03:04:01:49.760: main GPU1: 38C 23% 9W
+GPUs power: 8.6 W
+2021.06.03:04:01:50.221: unkn Eth: Connecting to ethash pool ssl://eu1.ethermine.org:4444 (proto: EthProxy)
+2021.06.03:04:01:50.232: eths Eth: Connected to SSL ethash pool eu1.ethermine.org:4444 (172.65.207.106)
+2021.06.03:04:01:50.258: eths Eth: Unable to establish secure connection to ssl://eu1.ethermine.org:4444: wrong version number
+2021.06.03:04:01:50.259: eths Eth: Reconnecting in 5 seconds...
+2021.06.03:04:01:55.267: unkn Eth: Connecting to ethash pool ssl://eu1.ethermine.org:4444 (proto: EthProxy)
+2021.06.03:04:01:55.279: eths Eth: Connected to SSL ethash pool eu1.ethermine.org:4444 (172.65.207.106)
+2021.06.03:04:01:55.305: eths Eth: Unable to establish secure connection to ssl://eu1.ethermine.org:4444: wrong version number
+2021.06.03:04:01:55.306: eths Eth: Reconnecting in 5 seconds...
+2021.06.03:04:02:00.314: unkn Eth: Connecting to ethash pool ssl://eu1.ethermine.org:4444 (proto: EthProxy)
+2021.06.03:04:02:00.325: eths Eth: Connected to SSL ethash pool eu1.ethermine.org:4444 (172.65.207.106)
+2021.06.03:04:02:00.350: eths Eth: Unable to establish secure connection to ssl://eu1.ethermine.org:4444: wrong version number
+2021.06.03:04:02:00.351: eths Eth: Giving up after 3 retries, switching to next pool
+2021.06.03:04:02:00.351: eths Eth: Reconnecting in 5 seconds...
+2021.06.03:04:02:04.998: main  
+2021.06.03:04:02:04.998: main *** 0:00 *** 6/3 04:02 **************************************
+2021.06.03:04:02:04.998: main Eth: Mining ETH on >ssl://us1.ethermine.org:4444 for 0:00
+2021.06.03:04:02:04.998: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.06.03:04:02:04.998: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.06.03:04:02:04.998: main Eth: Average speed (5 min): 0.000 MH/s
+2021.06.03:04:02:04.998: main  
+2021.06.03:04:02:05.360: unkn Eth: Connecting to ethash pool ssl://us1.ethermine.org:4444 (proto: EthProxy)
+2021.06.03:04:02:05.371: eths Eth: Connected to SSL ethash pool us1.ethermine.org:4444 (172.65.218.238)
+2021.06.03:04:02:05.411: eths Eth: Unable to establish secure connection to ssl://us1.ethermine.org:4444: wrong version number
+2021.06.03:04:02:05.412: eths Eth: Reconnecting in 5 seconds...
+2021.06.03:04:02:10.420: unkn Eth: Connecting to ethash pool ssl://us1.ethermine.org:4444 (proto: EthProxy)
+2021.06.03:04:02:10.432: eths Eth: Connected to SSL ethash pool us1.ethermine.org:4444 (172.65.218.238)
+2021.06.03:04:02:10.463: eths Eth: Unable to establish secure connection to ssl://us1.ethermine.org:4444: wrong version number
+2021.06.03:04:02:10.464: eths Eth: Reconnecting in 5 seconds...
+2021.06.03:04:02:15.472: unkn Eth: Connecting to ethash pool ssl://us1.ethermine.org:4444 (proto: EthProxy)
+2021.06.03:04:02:15.483: eths Eth: Connected to SSL ethash pool us1.ethermine.org:4444 (172.65.218.238)
+2021.06.03:04:02:15.508: eths Eth: Unable to establish secure connection to ssl://us1.ethermine.org:4444: wrong version number
+2021.06.03:04:02:15.509: eths Eth: Giving up after 3 retries, switching to next pool
+2021.06.03:04:02:15.509: eths Eth: Reconnecting in 5 seconds...
+2021.06.03:04:02:19.845: main GPU1: 38C 23% 9W
+GPUs power: 9.2 W
+2021.06.03:04:02:20.517: unkn Eth: Connecting to ethash pool ssl://eu1.ethermine.org:4444 (proto: EthProxy)
+2021.06.03:04:02:20.528: eths Eth: Connected to SSL ethash pool eu1.ethermine.org:4444 (172.65.207.106)
+2021.06.03:04:02:20.563: eths Eth: Unable to establish secure connection to ssl://eu1.ethermine.org:4444: wrong version number
+2021.06.03:04:02:20.564: eths Eth: Reconnecting in 5 seconds...
+2021.06.03:04:02:25.572: unkn Eth: Connecting to ethash pool ssl://eu1.ethermine.org:4444 (proto: EthProxy)
+2021.06.03:04:02:25.582: eths Eth: Connected to SSL ethash pool eu1.ethermine.org:4444 (172.65.207.106)
+2021.06.03:04:02:25.608: eths Eth: Unable to establish secure connection to ssl://eu1.ethermine.org:4444: wrong version number
+2021.06.03:04:02:25.609: eths Eth: Reconnecting in 5 seconds...
+2021.06.03:04:02:26.124: unkn Quitting...
+2021.06.03:04:02:26.297: wdog Stopping watchdog thread
+2021.06.03:04:02:26.299: main Exit code: 0

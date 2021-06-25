@@ -1,0 +1,44 @@
+2021.06.07:01:14:39.806: main Phoenix Miner 5.6d Windows/msvc - Release build
+2021.06.07:01:14:39.806: main Cmd line: 
+2021.06.07:01:14:39.806: main config.txt: -pool eu1.ethermine.org:5555 -pool2 us1.ethermine.org:5555 -wal 0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.Pgnite_DAN_donating_to_Pgnite -gpow 75 
+2021.06.07:01:14:40.161: main CUDA version: 10.0, CUDA runtime: 8.0
+2021.06.07:01:14:40.514: main No OpenCL platforms found
+2021.06.07:01:14:40.514: main Available GPUs for mining:
+2021.06.07:01:14:40.514: main GPU1: GeForce GTX 860M (pcie 1), CUDA cap. 5.0, 4 GB VRAM, 5 CUs
+2021.06.07:01:14:40.714: main NVML library initialized
+2021.06.07:01:14:40.720: main Nvidia driver version: 442.19
+2021.06.07:01:14:41.060: main Eth: the pool list contains 2 pools (2 from command-line)
+2021.06.07:01:14:41.060: main Eth: primary pool: eu1.ethermine.org:5555
+2021.06.07:01:14:41.061: main Starting GPU mining
+2021.06.07:01:14:41.258: hwmc GPU1: unable to get fan speed - Not Supported (3)
+2021.06.07:01:14:41.360: wdog Starting watchdog thread
+2021.06.07:01:14:41.361: main Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.06.07:01:14:41.362: main GPU1: 53C
+2021.06.07:01:14:41.430: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (2606:4700:90:0:bda0:4092:8f4f:4658)
+2021.06.07:01:14:41.430: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.Pgnite_DAN_donating_to_Pgnite"]}
+
+2021.06.07:01:14:41.451: eths Eth: Connection closed by the pool
+2021.06.07:01:14:41.452: eths Eth: Reconnecting in 5 seconds...
+2021.06.07:01:14:41.564: main Listening for CDM remote manager at port 3333 in read-only mode
+2021.06.07:01:14:46.455: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.06.07:01:14:46.475: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (2606:4700:90:0:bda0:4092:8f4f:4658)
+2021.06.07:01:14:46.475: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.Pgnite_DAN_donating_to_Pgnite"]}
+
+2021.06.07:01:14:46.497: eths Eth: Connection closed by the pool
+2021.06.07:01:14:46.499: eths Eth: Reconnecting in 5 seconds...
+2021.06.07:01:14:51.501: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.06.07:01:14:51.525: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (2606:4700:90:0:bda0:4092:8f4f:4658)
+2021.06.07:01:14:51.525: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.Pgnite_DAN_donating_to_Pgnite"]}
+
+2021.06.07:01:14:51.548: eths Eth: Connection closed by the pool
+2021.06.07:01:14:51.549: eths Eth: Giving up after 3 retries, switching to next pool
+2021.06.07:01:14:51.549: eths Eth: Reconnecting in 5 seconds...
+2021.06.07:01:14:56.552: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.06.07:01:14:56.572: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (2606:4700:90:0:b886:9f1:5c3e:5711)
+2021.06.07:01:14:56.572: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.Pgnite_DAN_donating_to_Pgnite"]}
+
+2021.06.07:01:14:56.595: eths Eth: Connection closed by the pool
+2021.06.07:01:14:56.596: eths Eth: Reconnecting in 5 seconds...
+2021.06.07:01:14:58.355: unkn Quitting...
+2021.06.07:01:14:58.418: wdog Stopping watchdog thread
+2021.06.07:01:14:58.613: main Exit code: 0

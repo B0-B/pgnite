@@ -1,0 +1,42 @@
+2021.06.06:18:21:05.701: main Phoenix Miner 5.6d Windows/msvc - Release build
+2021.06.06:18:21:05.701: main Cmd line: -pool ssl://eu1.ethermine.org:5555 -pool2 ssl://us1.ethermine.org:5555 -wal 0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_main 
+2021.06.06:18:21:06.130: main CUDA version: 10.0, CUDA runtime: 8.0
+2021.06.06:18:21:06.500: main No OpenCL platforms found
+2021.06.06:18:21:06.500: main Available GPUs for mining:
+2021.06.06:18:21:06.500: main GPU1: GeForce GTX 860M (pcie 1), CUDA cap. 5.0, 4 GB VRAM, 5 CUs
+2021.06.06:18:21:06.705: main NVML library initialized
+2021.06.06:18:21:06.712: main Nvidia driver version: 442.19
+2021.06.06:18:21:07.082: main Eth: the pool list contains 2 pools (2 from command-line)
+2021.06.06:18:21:07.082: main Eth: primary pool: ssl://eu1.ethermine.org:5555
+2021.06.06:18:21:07.083: main Starting GPU mining
+2021.06.06:18:21:07.282: hwmc GPU1: unable to get fan speed - Not Supported (3)
+2021.06.06:18:21:07.384: wdog Starting watchdog thread
+2021.06.06:18:21:07.806: main Eth: Connecting to ethash pool ssl://eu1.ethermine.org:5555 (proto: EthProxy)
+2021.06.06:18:21:07.808: main GPU1: 57C
+2021.06.06:18:21:08.011: main Listening for CDM remote manager at port 3333 in read-only mode
+2021.06.06:18:21:10.447: eths Eth: Connected to SSL ethash pool eu1.ethermine.org:5555 (2606:4700:90:0:bda0:4092:8f4f:4658)
+2021.06.06:18:21:12.015: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_main"]}
+
+2021.06.06:18:21:13.144: eths Eth: Received: {"id":1,"jsonrpc":"2.0","result":true}
+2021.06.06:18:21:13.144: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.06.06:18:21:14.033: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x4b6a62f213dcfa021042638290a272c4e972238bcffc8646ed96dd950e0fe35f","0xac88bf0324754ae04cffe412accbbd72e534acd928bdcbe95239f660667ae26d","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xbffc62"]}
+2021.06.06:18:21:14.033: eths Eth: New job #4b6a62f2 from ssl://eu1.ethermine.org:5555; diff: 4295MH
+2021.06.06:18:21:14.035: GPU1 GPU1: Starting up... (0)
+2021.06.06:18:21:14.035: GPU1 GPU1: Generating ethash light cache for epoch #419
+2021.06.06:18:21:15.687: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x70e42f540ddddb3488334b4f7f1947bb78148fb1149a35294a7db280dc8582e7","0xac88bf0324754ae04cffe412accbbd72e534acd928bdcbe95239f660667ae26d","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xbffc62"]}
+2021.06.06:18:21:15.687: eths Eth: New job #70e42f54 from ssl://eu1.ethermine.org:5555; diff: 4295MH
+2021.06.06:18:21:17.848: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.06.06:18:21:19.294: GPU1 Light cache generated in 5.3 s (13.0 MB/s)
+2021.06.06:18:21:21.723: GPU1 GPU1: Allocating DAG (4.29) GB; good for epoch up to #421
+2021.06.06:18:21:21.723: GPU1 CUDA error in CudaProgram.cu:388 : out of memory (2)
+2021.06.06:18:21:21.723: GPU1 GPU1: CUDA memory: 4.00 GB total, 3.88 GB free
+2021.06.06:18:21:21.723: GPU1 GPU1 initMiner error: out of memory
+2021.06.06:18:21:21.723: wdog Fatal error detected. Restarting.
+2021.06.06:18:21:22.016: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.06.06:18:21:22.049: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x70e42f540ddddb3488334b4f7f1947bb78148fb1149a35294a7db280dc8582e7","0xac88bf0324754ae04cffe412accbbd72e534acd928bdcbe95239f660667ae26d","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xbffc62"]}
+2021.06.06:18:21:22.871: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.06.06:18:21:23.737: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xc623cafd52d6a06fb4cc9f11882a7497e45271741436d371a8da3499c07bc203","0xac88bf0324754ae04cffe412accbbd72e534acd928bdcbe95239f660667ae26d","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xbffc62"]}
+2021.06.06:18:21:23.737: eths Eth: New job #c623cafd from ssl://eu1.ethermine.org:5555; diff: 4295MH
+2021.06.06:18:21:27.889: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00

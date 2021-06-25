@@ -1,0 +1,11 @@
+2021.06.06:22:52:55.142: main Phoenix Miner 5.6d Windows/msvc - Release build
+2021.06.06:22:52:55.142: main Cmd line: 
+2021.06.06:22:52:55.142: main config.txt: -pool eu1.ethermine.org:5555 -pool2 us1.ethermine.org:5555 -wal 0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.Pgnite_DAN -gpow 10 
+2021.06.06:22:52:55.479: main CUDA version: 10.0, CUDA runtime: 8.0
+2021.06.06:22:52:55.822: main No OpenCL platforms found
+2021.06.06:22:52:55.823: main Available GPUs for mining:
+2021.06.06:22:52:55.823: main GPU1: GeForce GTX 860M (pcie 1), CUDA cap. 5.0, 4 GB VRAM, 5 CUs
+2021.06.06:22:52:56.024: main NVML library initialized
+2021.06.06:22:52:56.030: main Nvidia driver version: 442.19
+2021.06.06:22:52:56.368: main Eth: the pool list contains 2 pools (2 from command-line)
+2021.06.06:22:52:56.368: main Eth: primary pool: eu1.ethermine.org:5555

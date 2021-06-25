@@ -1,0 +1,383 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>API requests &mdash; PhoenixMiner 5.6d documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> PhoenixMiner
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quick-start.html">Quick start</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="quick-start.html#download-and-install">Download and install</a></li>
+<li class="toctree-l2"><a class="reference internal" href="quick-start.html#ethash-mining-command-line-examples">Ethash mining command-line examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="quick-start.html#dual-mining-command-line-examples">Dual-mining command-line examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="quick-start.html#progpow-command-line-examples">ProgPOW command-line examples</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="features.html">Features, requirements, and limitations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arguments.html">Command-line arguments</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="arguments.html#pool-options">Pool options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="arguments.html#general-pool-options">General pool options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="arguments.html#benchmark-mode">Benchmark mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="arguments.html#remote-control-options">Remote control options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="arguments.html#mining-options">Mining options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="arguments.html#hardware-control-options-you-may-specify-these-options-per-gpu">Hardware control options (you may specify these options per-GPU)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="arguments.html#general-options">General Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="arguments.html#per-gpu-options">Per-GPU options</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="interactive.html">Interactive console commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="config-files.html">Configuration files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="remote.html">Remote monitoring and management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hw-control.html">Hardware control options</a></li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="troubleshooting.html">Troubleshooting</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">PhoenixMiner</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>API requests</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <p>PhoenixMiner supports a Json-RPC based API for remote monitoring and control of your rigs. By default PhoenixMiner listens for incoming TCP connections on port 3333. You can change the default port number, or even disable this feature completely by using the following command-line options:</p>
+<dl class="simple">
+<dt>-cdm &lt;n&gt;</dt><dd><p>Selects the level of support of the remote monitoring and control API:</p>
+<dl class="field-list simple">
+<dt class="field-odd">0</dt>
+<dd class="field-odd"><p>disabled</p>
+</dd>
+<dt class="field-even">1</dt>
+<dd class="field-even"><p>read-only - this is the default</p>
+</dd>
+<dt class="field-odd">2</dt>
+<dd class="field-odd"><p>full (only use on secure connections)</p>
+</dd>
+</dl>
+</dd>
+<dt>-cdmport &lt;port&gt;</dt><dd><p>Set the remote monitoring port (default is 3333). You can also specify &lt;ip_addr:port&gt; if you have a secure VPN connection and want to bind the remote monitoring port to it</p>
+</dd>
+</dl>
+<p><strong>NOTE:</strong> PhoenixMiner is backwards compatible with Claymore’s dual miner protocol for remote monitoring and
+management. This means that you can use any tools that are build to support Claymore’s dual miner.</p>
+<p><strong>IMPORTANT!</strong> All communication between the miner and the remote manager is send as plain text  (including the password, if such is used), so you <strong>must not use this over publicly accessible network</strong>. If you want to use this API over public networks, you must use a VPN to encrypt the exchanges between the miner and the remote control application.</p>
+<div class="section" id="api-requests">
+<h1>API requests<a class="headerlink" href="#api-requests" title="Permalink to this headline">¶</a></h1>
+<p>All Json-RPC requests must end with a new-line character (<code class="docutils literal notranslate"><span class="pre">\n</span></code>) in order to be processed by the miner.</p>
+<p>If you have used the <code class="docutils literal notranslate"><span class="pre">-cdmpass</span></code> command-line parameter to set a password, you must add a <code class="docutils literal notranslate"><span class="pre">psw</span></code> parameter to your requests. Example: <code class="docutils literal notranslate"><span class="pre">{&quot;id&quot;:0,&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;miner_getstat1&quot;,&quot;psw&quot;:&quot;123456&quot;}</span></code></p>
+<div class="section" id="miner-getstat1">
+<h2>miner_getstat1<a class="headerlink" href="#miner-getstat1" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Request:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">{&quot;id&quot;:0,&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;miner_getstat1&quot;}</span></code></p>
+</dd>
+<dt>Response:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">{&quot;result&quot;:</span> <span class="pre">[&quot;5.5c</span> <span class="pre">-</span> <span class="pre">ETH&quot;,</span> <span class="pre">&quot;46&quot;,</span> <span class="pre">&quot;182724;51;0&quot;,</span> <span class="pre">&quot;30502;30457;30297;30481;30479;30505&quot;,</span> <span class="pre">&quot;0;0;0&quot;,</span> <span class="pre">&quot;off;off;off;off;off;off&quot;,</span> <span class="pre">&quot;53;71;57;67;61;72;55;70;59;71;61;70&quot;,</span> <span class="pre">&quot;us1.ethermine.org:4444&quot;,</span> <span class="pre">&quot;0;0;0;0&quot;]}</span></code></p>
+</dd>
+<dt>Description:</dt><dd><p>This request returns information about the miner state. Here is how to parse the returned information:</p>
+<dl class="field-list simple">
+<dt class="field-odd">“5.5c - ETH”</dt>
+<dd class="field-odd"><p>miner version and the currently mined coin (if known)</p>
+</dd>
+<dt class="field-even">“46”</dt>
+<dd class="field-even"><p>running time, in minutes</p>
+</dd>
+<dt class="field-odd">“182724;51;0”</dt>
+<dd class="field-odd"><p>total ethash hashrate in kH/s, number of ethash shares, number of ethash rejected shares.</p>
+</dd>
+<dt class="field-even">“30502;30457;30297;30481;30479;30505”</dt>
+<dd class="field-even"><p>ethash hashrate for each GPU in kH/s</p>
+</dd>
+<dt class="field-odd">“0;0;0”</dt>
+<dd class="field-odd"><p>total secondary coin hashrate in kH/s, number of secondary coin shares, number of secondary coin rejected shares.</p>
+</dd>
+<dt class="field-even">“off;off;off;off;off;off”</dt>
+<dd class="field-even"><p>secondary coin hashrate for each GPU in kH/s (or <code class="docutils literal notranslate"><span class="pre">off</span></code> if dual mining is not used)</p>
+</dd>
+<dt class="field-odd">“53;71;57;67;61;72;55;70;59;71;61;70”</dt>
+<dd class="field-odd"><p>temperature and fan speed in % for each GPU</p>
+</dd>
+<dt class="field-even">“us1.ethermine.org:4444”</dt>
+<dd class="field-even"><p>current mining pool. When using dual mode, the second pool will be listed too. The name of the pool may be prefixed by <code class="docutils literal notranslate"><span class="pre">&gt;</span></code>, which indicates that the connection to the pool is down (e.g. during the initial pool connection, or if the miner is paused for more than a few minutes, and it disconnects from the pool until the mining is resumed)</p>
+</dd>
+<dt class="field-odd">“0;0;0;0”</dt>
+<dd class="field-odd"><p>number of ethash invalid shares, number of ethash pool switches, number of secondary coin invalid shares, number of secondary coin pool switches.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</div>
+<div class="section" id="miner-getstat2">
+<h2>miner_getstat2<a class="headerlink" href="#miner-getstat2" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Request:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">{&quot;id&quot;:0,&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;miner_getstat2&quot;}</span></code></p>
+</dd>
+<dt>Response:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">{&quot;id&quot;:0,&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;result&quot;:[&quot;PM</span> <span class="pre">5.5c</span> <span class="pre">-</span> <span class="pre">ETC&quot;,</span> <span class="pre">&quot;5&quot;,</span> <span class="pre">&quot;49055;7;0&quot;,</span> <span class="pre">&quot;24701;24354&quot;,</span> <span class="pre">&quot;0;0;0&quot;,</span> <span class="pre">&quot;off;off&quot;,</span> <span class="pre">&quot;60;21;55;36&quot;,</span> <span class="pre">&quot;ssl://eu1-etc.ethermine.org:5555&quot;,</span> <span class="pre">&quot;0;0;0;0&quot;,</span> <span class="pre">&quot;3;4&quot;,</span> <span class="pre">&quot;0;0&quot;,</span> <span class="pre">&quot;0;0&quot;,</span> <span class="pre">&quot;0;0&quot;,</span> <span class="pre">&quot;0;0&quot;,</span> <span class="pre">&quot;0;0&quot;,</span> <span class="pre">&quot;1;3&quot;,</span> <span class="pre">&quot;0;0;0&quot;,</span> <span class="pre">&quot;216&quot;]}</span></code></p>
+</dd>
+<dt>Description:</dt><dd><p>Returns extended information about the miner state. The first several elements in the response are the same as in the <code class="docutils literal notranslate"><span class="pre">miner_getstat1</span></code> request. The rest are as follows:</p>
+<dl class="field-list simple">
+<dt class="field-odd">“3;4”</dt>
+<dd class="field-odd"><p>ethash accepted shares for every GPU</p>
+</dd>
+<dt class="field-even">“0;0”</dt>
+<dd class="field-even"><p>ethash rejected shares for every GPU</p>
+</dd>
+<dt class="field-odd">“0;0”</dt>
+<dd class="field-odd"><p>ethash invalid shares for every GPU</p>
+</dd>
+<dt class="field-even">“0;0”</dt>
+<dd class="field-even"><p>secondary coin accepted shares for every GPU</p>
+</dd>
+<dt class="field-odd">“0;0”</dt>
+<dd class="field-odd"><p>secondary coin rejected shares for every GPU</p>
+</dd>
+<dt class="field-even">“0;0”</dt>
+<dd class="field-even"><p>secondary coin invalid shares for every GPU</p>
+</dd>
+<dt class="field-odd">“1;3”</dt>
+<dd class="field-odd"><p>PCI bus index for every GPU</p>
+</dd>
+<dt class="field-even">“0;0;0”</dt>
+<dd class="field-even"><p>min/max/average time (in ms) of accepting shares for the current pool in the last hour</p>
+</dd>
+<dt class="field-odd">“216”</dt>
+<dd class="field-odd"><p>total power consumption of GPUs in W</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</div>
+<div class="section" id="miner-restart">
+<h2>miner_restart<a class="headerlink" href="#miner-restart" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Request:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">{&quot;id&quot;:0,&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;miner_restart&quot;}</span></code></p>
+</dd>
+<dt>Response:</dt><dd><p>None.</p>
+</dd>
+<dt>Description:</dt><dd><p>Restarts miner. The action taken depends on the <code class="docutils literal notranslate"><span class="pre">-rmode</span></code> command line option.</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="miner-reboot">
+<h2>miner_reboot<a class="headerlink" href="#miner-reboot" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Request:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">{&quot;id&quot;:0,&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;miner_reboot&quot;}</span></code></p>
+</dd>
+<dt>Response:</dt><dd><p>None.</p>
+</dd>
+<dt>Description:</dt><dd><p>Reboots the computer. Under Windows the miner executes the batch file <code class="docutils literal notranslate"><span class="pre">reboot.bat</span></code> if it exists. Under Linux the miner executes the shell script <code class="docutils literal notranslate"><span class="pre">reboot.sh</span></code> if such exists.</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="control-gpu">
+<h2>control_gpu<a class="headerlink" href="#control-gpu" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Request:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">{&quot;id&quot;:0,&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;control_gpu&quot;,</span> <span class="pre">&quot;params&quot;:[&quot;0&quot;,</span> <span class="pre">&quot;1&quot;]}</span></code></p>
+</dd>
+<dt>Response:</dt><dd><p>None.</p>
+</dd>
+<dt>Description:</dt><dd><p>Enables or disables specific GPUs (or the whole miner). The first number in the <code class="docutils literal notranslate"><span class="pre">params</span></code> array is the index of the GPU to control, or -1 if we want to control the whole miner. The second number in the <code class="docutils literal notranslate"><span class="pre">params</span></code> array is the requested GPU state:</p>
+<dl class="field-list simple">
+<dt class="field-odd">0</dt>
+<dd class="field-odd"><p>Disabled/paused</p>
+</dd>
+<dt class="field-even">1</dt>
+<dd class="field-even"><p>Enable ETH-only mode</p>
+</dd>
+<dt class="field-odd">2</dt>
+<dd class="field-odd"><p>Enable dual mining mode</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</div>
+<div class="section" id="miner-getfile">
+<h2>miner_getfile<a class="headerlink" href="#miner-getfile" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Request:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">{&quot;id&quot;:0,&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;miner_getfile&quot;,&quot;params&quot;:[&quot;config.txt&quot;]}</span></code></p>
+</dd>
+<dt>Response:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">{&quot;id&quot;:0,&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;error&quot;:null,&quot;result&quot;:[&quot;config.txt&quot;,&quot;2e3c425323....4522342234&quot;]}</span></code></p>
+</dd>
+<dt>Description:</dt><dd><p>Reads one file from the current folder of the miner. The only parameter is the name of the file to read (usually <code class="docutils literal notranslate"><span class="pre">epools.txt</span></code>, <code class="docutils literal notranslate"><span class="pre">config.txt</span></code>, or <code class="docutils literal notranslate"><span class="pre">dpools.txt</span></code>). The first element in the response <code class="docutils literal notranslate"><span class="pre">result</span></code> array is the name of the file, and then there is a string with hex digits with the contents of the file. Every two hex digits correspond to one byte from the file.</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="miner-file">
+<h2>miner_file<a class="headerlink" href="#miner-file" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>Request:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">{&quot;id&quot;:0,&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;miner_file&quot;,&quot;params&quot;:[&quot;config.txt&quot;,&quot;2e3c425323....4522342234&quot;]}</span></code></p>
+</dd>
+<dt>Response:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">{&quot;id&quot;:0,&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;result&quot;:true,&quot;error&quot;:null}</span></code></p>
+</dd>
+<dt>Description:</dt><dd><p>Uploads one file to the current folder of the miner. The first parameter is the name of the file to upload (usually <code class="docutils literal notranslate"><span class="pre">epools.txt</span></code>, <code class="docutils literal notranslate"><span class="pre">config.txt</span></code>, or <code class="docutils literal notranslate"><span class="pre">dpools.txt</span></code>). The second parameter is a string with hex digits with the contents of the file. Every two hex digits correspond to one byte from the file.</p>
+</dd>
+</dl>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017-2021, Phoenix
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
