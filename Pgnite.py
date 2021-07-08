@@ -10,7 +10,7 @@ import win32process
 from win32com import shell
 from ctypes import windll
 
-# SETUP
+# dependency check
 os.system("python -m pip install --upgrade pip")
 os.system("pip install psutil")
 os.system("pip install gputil")
@@ -85,7 +85,7 @@ class Application(tk.Frame):
         # apply the input
         self.infoVariable.set('Ignite Phoenix Miner ...')
         with open('./PhoenixMiner/config.txt', 'w+') as f:
-            f.write(f'-pool eu1.ethermine.org:{self.poolVariable.get()} -pool2 us1.ethermine.org:{self.poolVariable.get()}\n-wal {self.walletVariable.get()}.{self.workerVariable.get()}\n-gpow {self.gpuUsageVariable.get()}')
+            f.write(f'-pool eu1.ethermine.org:{self.poolVariable.get()} -pool2 us1.ethermine.org:{self.poolVariable.get()}\n-wal {self.walletVariable.get()}.{self.workerVariable.get()}\n-log 2\n-logdir ./log/\n-gpow {self.gpuUsageVariable.get()}')
         return True
 
     def build(self):
@@ -293,7 +293,7 @@ class Application(tk.Frame):
 
     def update(self):
         # many services are only available for NVIDIA cards
-        if self.nvidiaDetected():
+        if True: # self.nvidiaDetected():
             self.refreshUtilization()
 
         # update process stdout
