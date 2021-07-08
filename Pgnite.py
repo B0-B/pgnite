@@ -7,15 +7,11 @@ from subprocess import PIPE, STDOUT, Popen
 from getpass import getuser
 from time import sleep
 import threading
-import win32process
-from win32com import shell
-from ctypes import windll
 
 # dependency check
-os.system("python -m pip install --upgrade pip")
-os.system("pip install psutil")
-os.system("pip install gputil")
-os.system("pip install WMI")
+os.system("pip install --upgrade pip")
+for pkg in ['psutil', 'gputil', 'psutil', 'WMI']:
+    os.system(f'pip install {pkg}')
 
 # import installed modules
 import wmi
