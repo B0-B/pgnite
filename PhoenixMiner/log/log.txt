@@ -708,3 +708,908 @@ GPUs power: 7.5 W
 2021.07.09:01:05:25.961: eths Eth: Reconnecting in 5 seconds...
 2021.07.09:01:05:27.196: main GPU1: 37C 23% 7W
 GPUs power: 7.4 W
+2021.07.09:01:05:30.965: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:05:31.045: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:05:31.045: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:05:31.123: eths Eth: Connection closed by the pool
+2021.07.09:01:05:31.124: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:05:31.124: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:05:36.126: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:05:36.146: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:05:36.146: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:05:36.190: eths Eth: Connection closed by the pool
+2021.07.09:01:05:36.191: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:05:41.207: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:05:41.216: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:05:41.216: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:05:41.226: eths Eth: Connection closed by the pool
+2021.07.09:01:05:41.227: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:05:46.243: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:05:46.322: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:05:46.322: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:05:46.403: eths Eth: Connection closed by the pool
+2021.07.09:01:05:46.404: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:05:46.404: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:05:51.415: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:05:51.424: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:05:51.424: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:05:51.433: eths Eth: Connection closed by the pool
+2021.07.09:01:05:51.434: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:05:56.445: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:05:56.509: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:05:56.509: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:05:56.557: eths Eth: Connection closed by the pool
+2021.07.09:01:05:56.560: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:05:56.725: main  
+2021.07.09:01:05:56.725: main *** 0:03 *** 7/9 01:05 **************************************
+2021.07.09:01:05:56.725: main Eth: Mining ETH on >us1.ethermine.org:5555 for 0:00
+2021.07.09:01:05:56.725: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.07.09:01:05:56.725: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.07.09:01:05:56.725: main Eth: Average speed (5 min): 0.000 MH/s
+2021.07.09:01:05:56.725: main Eth: Effective speed: 0.00 MH/s; at pool: 0.00 MH/s
+2021.07.09:01:05:56.725: main  
+2021.07.09:01:05:57.371: main GPU1: 37C 23% 8W
+GPUs power: 7.5 W
+2021.07.09:01:06:01.566: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:06:01.637: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:06:01.637: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:06:01.718: eths Eth: Connection closed by the pool
+2021.07.09:01:06:01.719: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:06:01.719: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:06:06.721: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:06:06.793: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:06:06.793: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:06:06.852: eths Eth: Connection closed by the pool
+2021.07.09:01:06:06.853: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:06:11.866: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:06:11.915: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:06:11.915: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:06:11.959: eths Eth: Connection closed by the pool
+2021.07.09:01:06:11.960: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:06:16.962: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:06:17.012: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:06:17.012: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:06:17.064: eths Eth: Connection closed by the pool
+2021.07.09:01:06:17.065: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:06:17.065: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:06:22.069: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:06:22.078: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:06:22.079: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:06:22.088: eths Eth: Connection closed by the pool
+2021.07.09:01:06:22.089: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:06:27.091: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:06:27.130: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:06:27.130: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:06:27.169: eths Eth: Connection closed by the pool
+2021.07.09:01:06:27.170: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:06:27.473: main GPU1: 37C 23% 10W
+GPUs power: 9.9 W
+2021.07.09:01:06:32.179: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:06:32.233: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:06:32.233: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:06:32.277: eths Eth: Connection closed by the pool
+2021.07.09:01:06:32.278: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:06:32.278: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:06:37.287: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:06:37.302: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:06:37.302: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:06:37.321: eths Eth: Connection closed by the pool
+2021.07.09:01:06:37.321: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:06:41.786: main  
+2021.07.09:01:06:41.786: main *** 0:03 *** 7/9 01:06 **************************************
+2021.07.09:01:06:41.786: main Eth: Mining ETH on >eu1.ethermine.org:5555 for 0:00
+2021.07.09:01:06:41.786: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.07.09:01:06:41.786: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.07.09:01:06:41.786: main Eth: Average speed (5 min): 0.000 MH/s
+2021.07.09:01:06:41.786: main Eth: Effective speed: 0.00 MH/s; at pool: 0.00 MH/s
+2021.07.09:01:06:41.786: main  
+2021.07.09:01:06:42.338: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:06:42.347: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:06:42.347: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:06:42.356: eths Eth: Connection closed by the pool
+2021.07.09:01:06:42.356: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:06:47.367: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:06:47.402: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:06:47.402: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:06:47.436: eths Eth: Connection closed by the pool
+2021.07.09:01:06:47.437: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:06:47.437: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:06:52.444: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:06:52.508: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:06:52.508: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:06:52.573: eths Eth: Connection closed by the pool
+2021.07.09:01:06:52.574: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:06:57.590: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:06:57.653: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:06:57.653: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:06:57.710: eths Eth: Connection closed by the pool
+2021.07.09:01:06:57.711: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:06:57.778: main GPU1: 37C 23% 8W
+GPUs power: 7.5 W
+2021.07.09:01:07:02.722: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:07:02.767: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:07:02.768: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:07:02.838: eths Eth: Connection closed by the pool
+2021.07.09:01:07:02.839: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:07:02.839: eths Eth: Reconnecting in 5 seconds...
+
+
+
+================================================================================
+
+
+2021.07.09:01:07:06.202: main Phoenix Miner 5.6d Windows/msvc - Release build
+2021.07.09:01:07:06.202: main Cmd line: -config C:\Users\b1\Desktop\pgnite/PhoenixMiner/config.txt 
+2021.07.09:01:07:06.202: main C:\Users\b1\Desktop\pgnite/PhoenixMiner/config.txt: -pool eu1.ethermine.org:5555 -pool2 us1.ethermine.org:5555 -wal 0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite -log 2 -logdir C:\Users\b1\Desktop\pgnite/PhoenixMiner/log/ -logfile log.txt -gpow 88 
+2021.07.09:01:07:06.239: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.07.09:01:07:06.262: main No OpenCL platforms found
+2021.07.09:01:07:06.262: main Available GPUs for mining:
+2021.07.09:01:07:06.262: main GPU1: GeForce GTX 1080 (pcie 6), CUDA cap. 6.1, 8 GB VRAM, 20 CUs
+2021.07.09:01:07:06.266: main NVML library initialized
+2021.07.09:01:07:06.277: main Nvidia driver version: 457.85
+2021.07.09:01:07:06.554: main Eth: the pool list contains 2 pools (2 from command-line)
+2021.07.09:01:07:06.554: main Eth: primary pool: eu1.ethermine.org:5555
+2021.07.09:01:07:06.554: main Starting GPU mining
+2021.07.09:01:07:06.675: wdog Starting watchdog thread
+2021.07.09:01:07:06.676: main Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:07:06.677: main GPU1: 37C 23% 8W
+GPUs power: 7.5 W
+2021.07.09:01:07:06.718: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:07:06.718: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:07:06.759: eths Eth: Connection closed by the pool
+2021.07.09:01:07:06.761: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:07:06.888: main Unable to start CDM server at port 3333: Only one usage of each socket address (protocol/network address/port) is normally permitted (10048)
+2021.07.09:01:07:07.841: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:07:07.917: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:07:07.917: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:07:08.252: eths Eth: Connection closed by the pool
+2021.07.09:01:07:08.253: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:07:11.769: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:07:11.826: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:07:11.826: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:07:11.890: eths Eth: Connection closed by the pool
+2021.07.09:01:07:11.891: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:07:13.269: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:07:13.304: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:07:13.304: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:07:13.349: eths Eth: Connection closed by the pool
+2021.07.09:01:07:13.350: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:07:16.905: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:07:16.960: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:07:16.960: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:07:17.014: eths Eth: Connection closed by the pool
+2021.07.09:01:07:17.015: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:07:17.015: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:07:18.363: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:07:18.399: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:07:18.400: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:07:18.449: eths Eth: Connection closed by the pool
+2021.07.09:01:07:18.450: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:07:18.450: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:07:22.024: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:07:22.044: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:07:22.044: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:07:22.070: eths Eth: Connection closed by the pool
+2021.07.09:01:07:22.071: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:07:23.459: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:07:23.541: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:07:23.541: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:07:23.616: eths Eth: Connection closed by the pool
+2021.07.09:01:07:23.617: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:07:26.977: main  
+2021.07.09:01:07:26.977: main *** 0:04 *** 7/9 01:07 **************************************
+2021.07.09:01:07:26.977: main Eth: Mining ETH on >us1.ethermine.org:5555 for 0:00
+2021.07.09:01:07:26.977: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.07.09:01:07:26.977: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.07.09:01:07:26.977: main Eth: Average speed (5 min): 0.000 MH/s
+2021.07.09:01:07:26.977: main Eth: Effective speed: 0.00 MH/s; at pool: 0.00 MH/s
+2021.07.09:01:07:26.977: main  
+2021.07.09:01:07:27.080: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:07:27.145: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:07:27.145: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:07:27.193: eths Eth: Connection closed by the pool
+2021.07.09:01:07:27.194: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:07:27.833: main GPU1: 37C 23% 8W
+GPUs power: 8.2 W
+2021.07.09:01:07:28.628: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:07:28.653: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:07:28.653: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:07:28.681: eths Eth: Connection closed by the pool
+2021.07.09:01:07:28.682: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:07:32.202: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:07:32.238: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:07:32.238: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:07:32.272: eths Eth: Connection closed by the pool
+2021.07.09:01:07:32.273: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:07:32.273: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:07:33.692: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:07:33.763: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:07:33.763: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:07:33.838: eths Eth: Connection closed by the pool
+2021.07.09:01:07:33.839: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:07:33.839: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:07:38.849: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:07:38.880: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:07:38.880: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:07:38.889: eths Eth: Connection closed by the pool
+2021.07.09:01:07:38.903: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:07:43.925: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:07:43.973: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:07:43.973: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:07:44.033: eths Eth: Connection closed by the pool
+2021.07.09:01:07:44.033: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:07:49.040: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:07:49.095: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:07:49.095: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:07:49.144: eths Eth: Connection closed by the pool
+2021.07.09:01:07:49.145: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:07:49.145: eths Eth: Reconnecting in 5 seconds...
+
+
+
+================================================================================
+
+
+2021.07.09:01:07:50.267: main Phoenix Miner 5.6d Windows/msvc - Release build
+2021.07.09:01:07:50.267: main Cmd line: -config C:\Users\b1\Desktop\pgnite/PhoenixMiner/config.txt 
+2021.07.09:01:07:50.267: main C:\Users\b1\Desktop\pgnite/PhoenixMiner/config.txt: -pool eu1.ethermine.org:5555 -pool2 us1.ethermine.org:5555 -wal 0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite -log 2 -logdir C:\Users\b1\Desktop\pgnite/PhoenixMiner/log/ -logfile log.txt -gpow 52 
+2021.07.09:01:07:50.302: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.07.09:01:07:50.327: main No OpenCL platforms found
+2021.07.09:01:07:50.327: main Available GPUs for mining:
+2021.07.09:01:07:50.327: main GPU1: GeForce GTX 1080 (pcie 6), CUDA cap. 6.1, 8 GB VRAM, 20 CUs
+2021.07.09:01:07:50.331: main NVML library initialized
+2021.07.09:01:07:50.351: main Nvidia driver version: 457.85
+2021.07.09:01:07:50.622: main Eth: the pool list contains 2 pools (2 from command-line)
+2021.07.09:01:07:50.622: main Eth: primary pool: eu1.ethermine.org:5555
+2021.07.09:01:07:50.622: main Starting GPU mining
+2021.07.09:01:07:50.751: wdog Starting watchdog thread
+2021.07.09:01:07:50.752: main Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:07:50.752: main GPU1: 37C 23% 8W
+GPUs power: 7.9 W
+2021.07.09:01:07:50.800: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:07:50.800: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:07:50.846: eths Eth: Connection closed by the pool
+2021.07.09:01:07:50.847: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:07:50.963: main Unable to start CDM server at port 3333: Only one usage of each socket address (protocol/network address/port) is normally permitted (10048)
+2021.07.09:01:07:54.156: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:07:54.188: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:07:54.188: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:07:54.216: eths Eth: Connection closed by the pool
+2021.07.09:01:07:54.217: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:07:55.852: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:07:55.936: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:07:55.936: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:07:56.007: eths Eth: Connection closed by the pool
+2021.07.09:01:07:56.008: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:07:58.157: main GPU1: 37C 23% 8W
+GPUs power: 7.6 W
+2021.07.09:01:07:59.231: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:07:59.263: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:07:59.263: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:07:59.296: eths Eth: Connection closed by the pool
+2021.07.09:01:07:59.297: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:08:01.019: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:08:01.074: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:08:01.074: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:08:01.139: eths Eth: Connection closed by the pool
+2021.07.09:01:08:01.140: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:08:01.140: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:08:04.312: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:08:06.154: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:08:06.178: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:08:06.178: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:08:06.201: eths Eth: Connection closed by the pool
+2021.07.09:01:08:06.202: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:08:06.349: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:08:06.349: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:08:06.395: eths Eth: Connection closed by the pool
+2021.07.09:01:08:06.396: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:08:06.396: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:08:11.210: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:08:11.410: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:08:12.047: main  
+2021.07.09:01:08:12.047: main *** 0:05 *** 7/9 01:08 **************************************
+2021.07.09:01:08:12.047: main Eth: Mining ETH on >eu1.ethermine.org:5555 for 0:00
+2021.07.09:01:08:12.047: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.07.09:01:08:12.047: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.07.09:01:08:12.047: main Eth: Average speed (5 min): 0.000 MH/s
+2021.07.09:01:08:12.047: main Eth: Effective speed: 0.00 MH/s; at pool: 0.00 MH/s
+2021.07.09:01:08:12.047: main  
+2021.07.09:01:08:12.254: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:08:12.254: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:08:12.295: eths Eth: Connection closed by the pool
+2021.07.09:01:08:12.296: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:08:12.490: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:08:12.491: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:08:12.568: eths Eth: Connection closed by the pool
+2021.07.09:01:08:12.569: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:08:17.304: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:08:17.360: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:08:17.361: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:08:17.584: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:08:17.656: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:08:17.656: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:08:17.689: eths Eth: Connection closed by the pool
+2021.07.09:01:08:17.690: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:08:17.690: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:08:17.723: eths Eth: Connection closed by the pool
+2021.07.09:01:08:17.724: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:08:20.977: main GPU1: 37C 23% 8W
+GPUs power: 7.5 W
+2021.07.09:01:08:22.698: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:08:22.728: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:08:22.777: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:08:22.799: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:08:22.777: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:08:22.838: eths Eth: Connection closed by the pool
+2021.07.09:01:08:22.839: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:08:22.799: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:08:23.090: eths Eth: Connection closed by the pool
+2021.07.09:01:08:23.091: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:08:23.091: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:08:27.851: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:08:27.877: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:08:28.107: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:08:28.186: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:08:28.186: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:08:28.252: main GPU1: 37C 23% 8W
+GPUs power: 7.7 W
+2021.07.09:01:08:28.267: eths Eth: Connection closed by the pool
+2021.07.09:01:08:28.268: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:08:33.276: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:08:33.302: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:08:33.302: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:08:33.324: eths Eth: Connection closed by the pool
+2021.07.09:01:08:33.325: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:08:38.337: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:08:38.416: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:08:38.416: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:08:38.496: eths Eth: Connection closed by the pool
+2021.07.09:01:08:38.497: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:08:38.497: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:08:43.509: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:08:44.547: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:08:44.547: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:08:44.590: eths Eth: Connection closed by the pool
+2021.07.09:01:08:44.591: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:08:49.607: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:08:49.652: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:08:49.652: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:08:49.985: eths Eth: Connection closed by the pool
+2021.07.09:01:08:49.986: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:08:54.991: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:08:55.000: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:08:55.000: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:08:55.011: eths Eth: Connection closed by the pool
+2021.07.09:01:08:55.012: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:08:55.012: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:08:57.237: main  
+2021.07.09:01:08:57.237: main *** 0:06 *** 7/9 01:08 **************************************
+2021.07.09:01:08:57.237: main Eth: Mining ETH on >us1.ethermine.org:5555 for 0:00
+2021.07.09:01:08:57.237: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.07.09:01:08:57.237: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.07.09:01:08:57.237: main Eth: Average speed (5 min): 0.000 MH/s
+2021.07.09:01:08:57.237: main Eth: Effective speed: 0.00 MH/s; at pool: 0.00 MH/s
+2021.07.09:01:08:57.237: main  
+2021.07.09:01:08:58.333: main GPU1: 37C 23% 8W
+GPUs power: 7.5 W
+2021.07.09:01:09:00.020: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:09:00.067: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:09:00.067: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:09:00.113: eths Eth: Connection closed by the pool
+2021.07.09:01:09:00.114: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:09:05.129: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:09:05.138: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:09:05.138: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:09:05.151: eths Eth: Connection closed by the pool
+2021.07.09:01:09:05.152: eths Eth: Reconnecting in 5 seconds...
+
+
+
+================================================================================
+
+
+2021.07.09:01:09:08.778: main Phoenix Miner 5.6d Windows/msvc - Release build
+2021.07.09:01:09:08.778: main Cmd line: -config C:\Users\b1\Desktop\pgnite/PhoenixMiner/config.txt 
+2021.07.09:01:09:08.778: main C:\Users\b1\Desktop\pgnite/PhoenixMiner/config.txt: -pool eu1.ethermine.org:5555 -pool2 us1.ethermine.org:5555 -wal 0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite -log 2 -logdir C:\Users\b1\Desktop\pgnite/PhoenixMiner/log/ -logfile log.txt -gpow 76 
+2021.07.09:01:09:08.813: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.07.09:01:09:08.836: main No OpenCL platforms found
+2021.07.09:01:09:08.836: main Available GPUs for mining:
+2021.07.09:01:09:08.836: main GPU1: GeForce GTX 1080 (pcie 6), CUDA cap. 6.1, 8 GB VRAM, 20 CUs
+2021.07.09:01:09:08.840: main NVML library initialized
+2021.07.09:01:09:08.860: main Nvidia driver version: 457.85
+2021.07.09:01:09:09.145: main Eth: the pool list contains 2 pools (2 from command-line)
+2021.07.09:01:09:09.145: main Eth: primary pool: eu1.ethermine.org:5555
+2021.07.09:01:09:09.145: main Starting GPU mining
+2021.07.09:01:09:09.274: wdog Starting watchdog thread
+2021.07.09:01:09:09.275: main Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:09:09.276: main GPU1: 37C 23% 8W
+GPUs power: 8.0 W
+2021.07.09:01:09:09.348: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:09:09.348: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:09:09.409: eths Eth: Connection closed by the pool
+2021.07.09:01:09:09.410: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:09:09.486: main Unable to start CDM server at port 3333: Only one usage of each socket address (protocol/network address/port) is normally permitted (10048)
+2021.07.09:01:09:10.160: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:09:10.193: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:09:10.193: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:09:10.221: eths Eth: Connection closed by the pool
+2021.07.09:01:09:10.222: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:09:10.222: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:09:14.421: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:09:14.473: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:09:14.473: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:09:14.523: eths Eth: Connection closed by the pool
+2021.07.09:01:09:14.524: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:09:15.228: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:09:16.256: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:09:16.256: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:09:16.280: eths Eth: Connection closed by the pool
+2021.07.09:01:09:16.281: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:09:19.538: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:09:19.580: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:09:19.580: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:09:19.631: eths Eth: Connection closed by the pool
+2021.07.09:01:09:19.632: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:09:19.632: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:09:21.288: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:09:21.338: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:09:21.339: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:09:21.645: eths Eth: Connection closed by the pool
+2021.07.09:01:09:21.646: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:09:24.642: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:09:25.740: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:09:25.740: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:09:25.775: eths Eth: Connection closed by the pool
+2021.07.09:01:09:25.776: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:09:26.658: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:09:26.674: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:09:26.674: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:09:26.691: eths Eth: Connection closed by the pool
+2021.07.09:01:09:26.692: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:09:26.692: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:09:28.515: main GPU1: 37C 23% 8W
+GPUs power: 7.6 W
+2021.07.09:01:09:30.792: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:09:30.873: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:09:30.873: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:09:30.953: eths Eth: Connection closed by the pool
+2021.07.09:01:09:30.954: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:09:31.702: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:09:31.750: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:09:31.751: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:09:31.816: eths Eth: Connection closed by the pool
+2021.07.09:01:09:31.817: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:09:35.969: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:09:35.984: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:09:35.984: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:09:35.997: eths Eth: Connection closed by the pool
+2021.07.09:01:09:35.998: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:09:35.998: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:09:36.832: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:09:36.852: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:09:36.852: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:09:36.872: eths Eth: Connection closed by the pool
+2021.07.09:01:09:36.873: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:09:39.463: main GPU1: 37C 23% 8W
+GPUs power: 7.5 W
+2021.07.09:01:09:41.012: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:09:41.063: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:09:41.063: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:09:41.131: eths Eth: Connection closed by the pool
+2021.07.09:01:09:41.132: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:09:41.885: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:09:41.927: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:09:41.928: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:09:42.180: eths Eth: Connection closed by the pool
+2021.07.09:01:09:42.181: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:09:42.181: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:09:42.429: main  
+2021.07.09:01:09:42.429: main *** 0:06 *** 7/9 01:09 **************************************
+2021.07.09:01:09:42.429: main Eth: Mining ETH on >eu1.ethermine.org:5555 for 0:00
+2021.07.09:01:09:42.429: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.07.09:01:09:42.429: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.07.09:01:09:42.429: main Eth: Average speed (5 min): 0.000 MH/s
+2021.07.09:01:09:42.429: main Eth: Effective speed: 0.00 MH/s; at pool: 0.00 MH/s
+2021.07.09:01:09:42.429: main  
+2021.07.09:01:09:46.136: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:09:46.200: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:09:46.200: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:09:47.191: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:09:47.218: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:09:47.218: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:09:47.244: eths Eth: Connection closed by the pool
+2021.07.09:01:09:47.245: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:09:52.253: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:09:52.263: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:09:52.263: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:09:52.273: eths Eth: Connection closed by the pool
+2021.07.09:01:09:52.273: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:09:57.283: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:09:57.333: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:09:57.333: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:09:57.389: eths Eth: Connection closed by the pool
+2021.07.09:01:09:57.390: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:09:57.390: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:09:58.907: main GPU1: 37C 23% 8W
+GPUs power: 7.5 W
+2021.07.09:01:10:02.398: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:10:02.407: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:10:02.407: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:10:02.416: eths Eth: Connection closed by the pool
+2021.07.09:01:10:02.417: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:10:07.432: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:10:07.509: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:10:07.509: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:10:07.587: eths Eth: Connection closed by the pool
+2021.07.09:01:10:07.587: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:10:12.594: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:10:12.633: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:10:12.633: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:10:12.676: eths Eth: Connection closed by the pool
+2021.07.09:01:10:12.677: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:10:12.677: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:10:17.681: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:10:18.709: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:10:18.709: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:10:18.723: eths Eth: Connection closed by the pool
+2021.07.09:01:10:18.724: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:10:23.741: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:10:23.786: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:10:23.786: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:10:23.831: eths Eth: Connection closed by the pool
+2021.07.09:01:10:23.832: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:10:27.468: main  
+2021.07.09:01:10:27.468: main *** 0:07 *** 7/9 01:10 **************************************
+2021.07.09:01:10:27.468: main Eth: Mining ETH on >eu1.ethermine.org:5555 for 0:00
+2021.07.09:01:10:27.468: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.07.09:01:10:27.468: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.07.09:01:10:27.468: main Eth: Average speed (5 min): 0.000 MH/s
+2021.07.09:01:10:27.468: main Eth: Effective speed: 0.00 MH/s; at pool: 0.00 MH/s
+2021.07.09:01:10:27.468: main  
+2021.07.09:01:10:28.836: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:10:28.905: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:10:28.905: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:10:28.956: eths Eth: Connection closed by the pool
+2021.07.09:01:10:28.957: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:10:28.957: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:10:28.979: main GPU1: 37C 23% 8W
+GPUs power: 7.5 W
+2021.07.09:01:10:33.970: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:10:34.030: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:10:34.030: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:10:34.090: eths Eth: Connection closed by the pool
+2021.07.09:01:10:34.091: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:10:39.101: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:10:39.162: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:10:39.163: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:10:39.209: eths Eth: Connection closed by the pool
+2021.07.09:01:10:39.210: eths Eth: Reconnecting in 5 seconds...
+
+
+
+================================================================================
+
+
+2021.07.09:01:10:41.085: main Phoenix Miner 5.6d Windows/msvc - Release build
+2021.07.09:01:10:41.085: main Cmd line: -config C:\Users\b1\Desktop\pgnite/PhoenixMiner/config.txt 
+2021.07.09:01:10:41.085: main C:\Users\b1\Desktop\pgnite/PhoenixMiner/config.txt: -pool eu1.ethermine.org:5555 -pool2 us1.ethermine.org:5555 -wal 0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite -log 2 -logdir C:\Users\b1\Desktop\pgnite/PhoenixMiner/log/ -logfile log.txt -gpow 76 
+2021.07.09:01:10:41.117: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.07.09:01:10:41.139: main No OpenCL platforms found
+2021.07.09:01:10:41.139: main Available GPUs for mining:
+2021.07.09:01:10:41.139: main GPU1: GeForce GTX 1080 (pcie 6), CUDA cap. 6.1, 8 GB VRAM, 20 CUs
+2021.07.09:01:10:41.142: main NVML library initialized
+2021.07.09:01:10:41.160: main Nvidia driver version: 457.85
+2021.07.09:01:10:41.434: main Eth: the pool list contains 2 pools (2 from command-line)
+2021.07.09:01:10:41.434: main Eth: primary pool: eu1.ethermine.org:5555
+2021.07.09:01:10:41.434: main Starting GPU mining
+2021.07.09:01:10:41.569: wdog Starting watchdog thread
+2021.07.09:01:10:41.570: main Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:10:41.572: main GPU1: 37C 23% 9W
+GPUs power: 8.7 W
+2021.07.09:01:10:41.615: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:10:41.615: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:10:41.650: eths Eth: Connection closed by the pool
+2021.07.09:01:10:41.651: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:10:41.780: main Unable to start CDM server at port 3333: Only one usage of each socket address (protocol/network address/port) is normally permitted (10048)
+2021.07.09:01:10:44.219: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:10:44.302: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:10:44.302: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:10:44.381: eths Eth: Connection closed by the pool
+2021.07.09:01:10:44.383: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:10:44.383: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:10:46.662: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:10:47.746: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:10:47.746: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:10:48.796: eths Eth: Connection closed by the pool
+2021.07.09:01:10:48.797: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:10:49.391: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:10:49.449: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:10:49.449: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:10:49.519: eths Eth: Connection closed by the pool
+2021.07.09:01:10:49.520: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:10:53.800: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:10:53.881: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:10:53.881: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:10:53.960: eths Eth: Connection closed by the pool
+2021.07.09:01:10:53.961: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:10:53.961: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:10:54.523: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:10:54.579: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:10:54.579: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:10:54.621: eths Eth: Connection closed by the pool
+2021.07.09:01:10:54.622: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:10:58.963: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:10:58.992: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:10:58.992: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:10:59.035: eths Eth: Connection closed by the pool
+2021.07.09:01:10:59.036: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:10:59.228: main GPU1: 37C 23% 8W
+GPUs power: 7.8 W
+2021.07.09:01:10:59.629: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:10:59.710: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:10:59.710: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:10:59.789: eths Eth: Connection closed by the pool
+2021.07.09:01:10:59.790: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:10:59.790: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:11:04.043: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:11:04.117: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:11:04.117: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:11:04.166: eths Eth: Connection closed by the pool
+2021.07.09:01:11:04.167: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:11:04.796: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:11:04.814: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:11:04.814: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:11:04.833: eths Eth: Connection closed by the pool
+2021.07.09:01:11:04.834: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:11:09.170: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:11:09.844: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:11:10.237: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:11:10.237: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:11:10.318: eths Eth: Connection closed by the pool
+2021.07.09:01:11:10.319: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:11:10.319: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:11:10.903: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:11:10.903: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:11:10.961: eths Eth: Connection closed by the pool
+2021.07.09:01:11:10.962: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:11:11.831: main GPU1: 37C 23% 8W
+GPUs power: 7.8 W
+2021.07.09:01:11:12.507: main  
+2021.07.09:01:11:12.507: main *** 0:08 *** 7/9 01:11 **************************************
+2021.07.09:01:11:12.507: main Eth: Mining ETH on >us1.ethermine.org:5555 for 0:00
+2021.07.09:01:11:12.507: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.07.09:01:11:12.507: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.07.09:01:11:12.507: main Eth: Average speed (5 min): 0.000 MH/s
+2021.07.09:01:11:12.507: main Eth: Effective speed: 0.00 MH/s; at pool: 0.00 MH/s
+2021.07.09:01:11:12.507: main  
+2021.07.09:01:11:15.329: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:11:15.970: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:11:15.984: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:11:15.984: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:11:15.994: eths Eth: Connection closed by the pool
+2021.07.09:01:11:15.995: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:11:15.995: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:11:16.426: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:11:16.426: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:11:16.450: eths Eth: Connection closed by the pool
+2021.07.09:01:11:16.450: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:11:21.000: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:11:21.059: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:11:21.059: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:11:21.116: eths Eth: Connection closed by the pool
+2021.07.09:01:11:21.117: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:11:21.462: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:11:21.487: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:11:21.487: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:11:26.129: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:11:26.188: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:11:26.188: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:11:26.260: eths Eth: Connection closed by the pool
+2021.07.09:01:11:26.261: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:11:29.381: main GPU1: 37C 23% 7W
+GPUs power: 7.4 W
+2021.07.09:01:11:31.276: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:11:31.316: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:11:31.316: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:11:31.354: eths Eth: Connection closed by the pool
+2021.07.09:01:11:31.355: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:11:31.355: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:11:36.370: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:11:36.402: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:11:36.402: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:11:36.431: eths Eth: Connection closed by the pool
+2021.07.09:01:11:36.432: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:11:41.445: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:11:41.524: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:11:41.525: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:11:41.605: eths Eth: Connection closed by the pool
+2021.07.09:01:11:41.606: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:11:46.613: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:11:46.672: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:11:46.672: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:11:46.728: eths Eth: Connection closed by the pool
+2021.07.09:01:11:46.729: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:11:46.729: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:11:51.740: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:11:51.776: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:11:51.776: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:11:51.809: eths Eth: Connection closed by the pool
+2021.07.09:01:11:51.810: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:11:56.821: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:11:56.849: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:11:56.849: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:11:56.879: eths Eth: Connection closed by the pool
+2021.07.09:01:11:56.880: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:11:57.606: main  
+2021.07.09:01:11:57.606: main *** 0:09 *** 7/9 01:11 **************************************
+2021.07.09:01:11:57.606: main Eth: Mining ETH on >eu1.ethermine.org:5555 for 0:00
+2021.07.09:01:11:57.606: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.07.09:01:11:57.606: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.07.09:01:11:57.606: main Eth: Average speed (5 min): 0.000 MH/s
+2021.07.09:01:11:57.606: main Eth: Effective speed: 0.00 MH/s; at pool: 0.00 MH/s
+2021.07.09:01:11:57.606: main  
+2021.07.09:01:11:59.360: main GPU1: 37C 23% 8W
+GPUs power: 7.9 W
+2021.07.09:01:12:01.890: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:12:01.949: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:12:01.949: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:12:03.155: eths Eth: Connection closed by the pool
+2021.07.09:01:12:03.156: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:12:03.156: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:12:08.163: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:12:08.211: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:12:08.211: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:12:08.263: eths Eth: Connection closed by the pool
+2021.07.09:01:12:08.264: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:12:13.280: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:12:13.333: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:12:13.333: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:12:13.387: eths Eth: Connection closed by the pool
+2021.07.09:01:12:13.387: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:12:18.391: unkn Eth: Connecting to ethash pool us1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:12:19.427: eths Eth: Connected to ethash pool us1.ethermine.org:5555 (172.65.218.238)
+2021.07.09:01:12:19.427: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:12:19.454: eths Eth: Connection closed by the pool
+2021.07.09:01:12:19.455: eths Eth: Giving up after 3 retries, switching to next pool
+2021.07.09:01:12:19.455: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:12:24.466: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:12:24.514: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:12:24.514: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:12:24.565: eths Eth: Connection closed by the pool
+2021.07.09:01:12:24.566: eths Eth: Reconnecting in 5 seconds...
+2021.07.09:01:12:29.570: unkn Eth: Connecting to ethash pool eu1.ethermine.org:5555 (proto: EthProxy)
+2021.07.09:01:12:29.617: eths Eth: Connected to ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.07.09:01:12:29.617: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xC146f17afc36089ae030A5FB23420C6eBD0c4DF0.b1_donating_to_Pgnite"]}
+
+2021.07.09:01:12:29.714: main GPU1: 37C 23% 8W
+GPUs power: 8.2 W
+2021.07.09:01:12:42.727: main  
+2021.07.09:01:12:42.727: main *** 0:09 *** 7/9 01:12 **************************************
+2021.07.09:01:12:42.727: main Eth: Mining ETH on >eu1.ethermine.org:5555 for 0:00
+2021.07.09:01:12:42.727: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.07.09:01:12:42.727: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.07.09:01:12:42.727: main Eth: Average speed (5 min): 0.000 MH/s
+2021.07.09:01:12:42.727: main Eth: Effective speed: 0.00 MH/s; at pool: 0.00 MH/s
+2021.07.09:01:12:42.727: main  
+2021.07.09:01:12:59.822: main GPU1: 37C 23% 8W
+GPUs power: 8.0 W
+2021.07.09:01:13:27.748: main  
+2021.07.09:01:13:27.748: main *** 0:10 *** 7/9 01:13 **************************************
+2021.07.09:01:13:27.748: main Eth: Mining ETH on >eu1.ethermine.org:5555 for 0:00
+2021.07.09:01:13:27.748: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.07.09:01:13:27.748: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.07.09:01:13:27.748: main Eth: Average speed (5 min): 0.000 MH/s
+2021.07.09:01:13:27.748: main Eth: Effective speed: 0.00 MH/s; at pool: 0.00 MH/s
+2021.07.09:01:13:27.748: main  
+2021.07.09:01:13:29.872: main GPU1: 37C 23% 8W
+GPUs power: 8.1 W

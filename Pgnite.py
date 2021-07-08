@@ -202,7 +202,7 @@ class Application(tk.Frame):
 
         # right upper (general info)
         self.terminalPayload = ['Welcome']
-        self.terminal = tk.Text(self.rightUpperFrame, width=50, bg=bg, fg=eggWhite, font=("Calibri", 9), highlightthickness=0, relief='flat')
+        self.terminal = tk.Text(self.rightUpperFrame, width=70, bg=bg, fg=eggWhite, font=("Calibri", 7), highlightthickness=0, relief='flat')
         self.terminal.grid(row=0, column=0, sticky="nsew", pady=5, padx=20)
 
         # create a Scrollbar and associate it with terminal
@@ -234,11 +234,6 @@ class Application(tk.Frame):
 
                 # ---- trigger miner ----
                 self.invokeMinerSubprocess()
-    
-    def enterPassword(self, val):
-        print('return')
-        self.process.communicate(input=self.passwordVariable.get())
-        self.passwordVariable.set('')
 
     def invokeMinerSubprocess(self):
         print('invoke')
@@ -261,9 +256,6 @@ class Application(tk.Frame):
         self.tempVariable.set(f'{getattr(self.targetGPU,"temperature")} °C')
         self.gpuStatusVariable.set(f'{getattr(self.targetGPU,"load")} %')
         self.memVariable.set(f'{int(getattr(self.targetGPU, "memoryUtil"))} %')
-
-    def setGPUusage(self, val):
-        proc = subprocess.Popen('python "import GPUtil; GPUtil.showUtilization()"', stdout=subprocess.PIPE)
 
     def setup(self):
         # setup all global objects
