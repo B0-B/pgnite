@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import tkinter as tk
 from tkinter import messagebox
+import tkinter.ttk as ttk
 import os, subprocess, sys
 from subprocess import PIPE, STDOUT, Popen
 from getpass import getuser
@@ -88,7 +89,7 @@ class Application(tk.Frame):
         self.infoVariable.set('Ignite Phoenix Miner ...')
         print(os.getcwd())
         with open(f'{_path}/PhoenixMiner/config.txt', 'w+') as f:
-            f.write(f'-pool eu1.ethermine.org:{self.poolVariable.get()} -pool2 us1.ethermine.org:{self.poolVariable.get()} -wal {self.walletVariable.get()}.{self.workerVariable.get()} -log 2 -logdir {_path}/PhoenixMiner/log/ -gpow {self.gpuUsageVariable.get()}')
+            f.write(f'-pool eu1.ethermine.org:{self.poolVariable.get()} -pool2 us1.ethermine.org:{self.poolVariable.get()} -wal {self.walletVariable.get()}.{self.workerVariable.get()} -log 2 -logdir {_path}/PhoenixMiner/log/ -logfile log.txt -gpow {self.gpuUsageVariable.get()}')
         return True
 
     def build(self):
@@ -112,7 +113,7 @@ class Application(tk.Frame):
         self.leftUpperFrame = tk.Frame(self.master, height=450, width=400, background=bg)
         self.leftUpperFrame.grid_propagate(0)
         self.leftUpperFrame.grid(row=0, column=0, columnspan=10, rowspan=20, sticky="NW")
-        self.rightUpperFrame = tk.Frame(self.master, height=250, width=400, background=bg)
+        self.rightUpperFrame = tk.Frame(self.master, height=400, width=400, background=bg)
         self.rightUpperFrame.grid_propagate(0)
         self.rightUpperFrame.grid(row=0, column=1)
         self.leftLowerFrame = tk.Frame(self.master, height=50, width=400, background=bg)
@@ -200,16 +201,14 @@ class Application(tk.Frame):
 
 
         # right upper (general info)
+        self.terminalPayload = ['Welcome']
         self.terminal = tk.Text(self.rightUpperFrame, width=50, bg=bg, fg=eggWhite, font=("Calibri", 9), highlightthickness=0, relief='flat')
         self.terminal.grid(row=0, column=0, sticky="nsew", pady=5, padx=20)
 
-        # right lower
-        self.passwordLabel = tk.Label(self.rightLowerFrame, text='Password', bg=bg, fg=fontColor)
-        self.passwordLabel.grid(row=0, column=0, sticky="w", padx=5)
-        self.passwordVariable = tk.StringVar()
-        self.password = tk.Entry(self.rightLowerFrame, textvariable=self.passwordVariable, width=10, show="*")
-        self.password.grid(row=0, column=1, sticky="w")
-        self.master.bind('<Return>', self.enterPassword)
+        # create a Scrollbar and associate it with terminal
+        scrollb = ttk.Scrollbar(self, command=self.terminal.yview)
+        scrollb.grid(row=0, column=1, sticky='nsew')
+        self.terminal['yscrollcommand'] = scrollb.set
     
     def buttonAction(self):
         if self.minerActive:
@@ -298,22 +297,24 @@ class Application(tk.Frame):
 
     def update(self):
         # many services are only available for NVIDIA cards
-        if True: # self.nvidiaDetected():
+        if self.nvidiaDetected():
             self.refreshUtilization()
 
         # update process stdout
         if self.process != None:
-            out = self.process.stdout.read()
-            err = self.process.stderr.read()
-            if out != '' or err != '':
-                print('STDOUT', out)
-                print('ERROR', err)
-                self.processHistory.append(out)
-                self.processHistory.append(err)
-                if len(self.processHistory) > 8:
-                    self.processHistory = self.processHistory[1:]
-                #self.terminal.delete(0, tk.END)
-                self.terminal.insert(tk.INSERT, '\n'.join(self.processHistory))
+
+            # read out the last 10 lines maybe from the log Path
+            linesize = 10
+            logPath = _path + '/PhoenixMiner/log/log.txt'
+            with open(logPath, 'r') as f:
+                stdout = f.read().split('\n')[-linesize:-1]
+                stdout.remove('')
+                print(stdout)
+                if self.terminalPayload[-1] != stdout[-1]:
+                    print('log change')
+                    self.terminalPayload = stdout
+                    self.terminal.insert(tk.INSERT, '\n'.join(self.terminalPayload))
+                    self.terminal.see("end")
 
 if __name__ == '__main__':
     Application(tk.Tk())
