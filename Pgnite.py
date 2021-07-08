@@ -23,8 +23,8 @@ import GPUtil as GPU
 
 
 __version__ = 1.0
-__path__ = os.path.dirname(os.path.realpath(__file__))
-print('Pgnite location path:', __path__)
+_path = os.path.dirname(os.path.realpath(__file__))
+print('Pgnite location path:', _path)
 
 
 class pipe(threading.Thread):
@@ -87,8 +87,8 @@ class Application(tk.Frame):
         # apply the input
         self.infoVariable.set('Ignite Phoenix Miner ...')
         print(os.getcwd())
-        with open(f'{__path__}\\PhoenixMiner\\config.txt', 'w+') as f:
-            f.write(f'-pool eu1.ethermine.org:{self.poolVariable.get()} -pool2 us1.ethermine.org:{self.poolVariable.get()} -wal {self.walletVariable.get()}.{self.workerVariable.get()} -log 2 -logdir {__path__}/PhoenixMiner/log/ -gpow {self.gpuUsageVariable.get()}')
+        with open(f'{_path}/PhoenixMiner/config.txt', 'w+') as f:
+            f.write(f'-pool eu1.ethermine.org:{self.poolVariable.get()} -pool2 us1.ethermine.org:{self.poolVariable.get()} -wal {self.walletVariable.get()}.{self.workerVariable.get()} -log 2 -logdir {_path}/PhoenixMiner/log/ -gpow {self.gpuUsageVariable.get()}')
         return True
 
     def build(self):
@@ -243,8 +243,9 @@ class Application(tk.Frame):
 
     def invokeMinerSubprocess(self):
         print('invoke')
+        cmd = f'{_path}/PhoenixMiner/PhoenixMiner.exe -config {_path}/PhoenixMiner/config.txt'
         #self.process = Popen(['C:\\Windows\\System32\\runas.exe', '/noprofile', '/user:Administrator', "PhoenixMiner\\PhoenixMiner.exe"], stdin=PIPE, stdout=PIPE, stderr=PIPE, encoding='utf8', shell=True)
-        self.process = Popen([f'{__path__}\\PhoenixMiner\\PhoenixMiner.exe -config {__path__}\\PhoenixMiner\\config.txt'], stdin=PIPE, stdout=PIPE, stderr=PIPE, encoding='utf8', bufsize=1)
+        self.process = Popen(cmd, stdin=PIPE, stdout=PIPE, stderr=PIPE, encoding='utf8', bufsize=1)
 
     def killMinerSubprocess(self):
         self.process.kill()
