@@ -10,7 +10,7 @@ import threading
 
 # dependency check
 os.system("pip install --upgrade pip")
-for pkg in ['psutil', 'gputil', 'psutil', 'WMI']:
+for pkg in ['psutil', 'gputil', 'psutil', 'WMI', 'pywin32']:
     os.system(f'pip install {pkg}')
 
 # import installed modules
