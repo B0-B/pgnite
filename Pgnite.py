@@ -102,6 +102,9 @@ class Application(tk.Frame):
         eggWhite="#ddd"
         activeColor="#bf396d"
 
+        # add logo seal
+        self.master.iconbitmap(f'{_path}/static/logo.ico')
+
         # build general shape
         self.master.geometry('400x400')
         self.master.title(f'Pgnite {__version__} ETH UI')
