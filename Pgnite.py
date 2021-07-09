@@ -103,20 +103,20 @@ class Application(tk.Frame):
         self.master.iconbitmap(f'{_path}/static/logo.ico')
 
         # build general shape
-        self.master.geometry('400x400')
+        self.master.geometry('330x330')
         self.master.title(f'Pgnite {__version__} ETH UI')
         self.master.resizable(0, 0)
         self.master.configure(background=bg)
         for i in [0,1]:
             self.master.columnconfigure(i, weight=0)
             self.master.rowconfigure(i, weight=0)
-        self.leftUpperFrame = tk.Frame(self.master, height=450, width=400, background=bg)
+        self.leftUpperFrame = tk.Frame(self.master, height=300, width=300, background=bg)
         self.leftUpperFrame.grid_propagate(0)
-        self.leftUpperFrame.grid(row=0, column=0, columnspan=10, rowspan=20, sticky="NW")
-        self.rightUpperFrame = tk.Frame(self.master, height=400, width=400, background=bg)
+        self.leftUpperFrame.grid(row=0, column=0, columnspan=10, rowspan=20, sticky="NW", pady=10)
+        self.rightUpperFrame = tk.Frame(self.master, height=300, width=500, background=bg)
         self.rightUpperFrame.grid_propagate(0)
         self.rightUpperFrame.grid(row=0, column=1)
-        self.leftLowerFrame = tk.Frame(self.master, height=50, width=400, background=bg)
+        self.leftLowerFrame = tk.Frame(self.master, height=50, width=300, background=bg)
         self.leftLowerFrame.grid_propagate(0)
         self.leftLowerFrame.grid(row=1, column=0)
         self.rightLowerFrame = tk.Frame(self.master, height=250, width=400, background=bg)
@@ -202,7 +202,7 @@ class Application(tk.Frame):
 
         # right upper (general info)
         self.terminalPayload = ['Welcome']
-        self.terminal = tk.Text(self.rightUpperFrame, width=70, bg=bg, fg=eggWhite, font=("Calibri", 7), highlightthickness=0, relief='flat')
+        self.terminal = tk.Text(self.rightUpperFrame, width=77, bg=bg, fg=eggWhite, font=("Calibri", 8), highlightthickness=0, relief='flat')
         self.terminal.grid(row=0, column=0, sticky="nsew", pady=5, padx=20)
 
         # create a Scrollbar and associate it with terminal
@@ -212,7 +212,7 @@ class Application(tk.Frame):
     
     def buttonAction(self):
         if self.minerActive:
-            self.master.geometry('400x400')
+            self.master.geometry('330x330')
             self.startButton.configure(text='mine', bg="#ddd", fg="#0d0d0d")
             self.minerActive=False
             self.workerField.config(state='normal')
@@ -224,7 +224,7 @@ class Application(tk.Frame):
             self.killMinerSubprocess()
         else:
             if self.applyInput():
-                self.master.geometry('800x400')
+                self.master.geometry('830x330')
                 self.startButton.configure(text='stop', bg="#bf396d", fg="#ddd")
                 self.minerActive=True
                 self.workerField.config(state='disabled')
@@ -239,7 +239,7 @@ class Application(tk.Frame):
         print('invoke')
         cmd = f'{_path}/{_mSubPath}/PhoenixMiner.exe -config {_path}/{_mSubPath}/config.txt'
         #self.process = Popen(['C:\\Windows\\System32\\runas.exe', '/noprofile', '/user:Administrator', "PhoenixMiner\\PhoenixMiner.exe"], stdin=PIPE, stdout=PIPE, stderr=PIPE, encoding='utf8', shell=True)
-        self.process = Popen(cmd, stdin=PIPE, stdout=PIPE, stderr=PIPE, encoding='utf8', bufsize=1)
+        self.process = Popen(cmd, stdin=PIPE, stdout=PIPE, stderr=PIPE, encoding='utf8', bufsize=1, shell=True)
 
     def killMinerSubprocess(self):
         self.process.kill()
@@ -301,9 +301,7 @@ class Application(tk.Frame):
             with open(logPath, 'r') as f:
                 stdout = f.read().split('\n')[-linesize:-1]
                 stdout.remove('')
-                print(stdout)
                 if self.terminalPayload[-1] != stdout[-1]:
-                    print('log change')
                     self.terminalPayload = stdout
                     self.terminal.insert(tk.INSERT, '\n'.join(self.terminalPayload))
                     self.terminal.see("end")
